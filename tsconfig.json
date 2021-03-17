@@ -3,9 +3,7 @@
     "declaration": true,
     "esModuleInterop": true,
     "jsx": "react",
-    "lib": [
-      "esnext", "dom"
-    ],
+    "lib": ["esnext", "dom"],
     "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -13,16 +11,9 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "outDir": "./dist",
-    "types": [
-      "node", "jest"
-    ],
+    "types": ["node", "jest"],
     "target": "es5",
-    "typeRoots": [
-      "./types",
-      "./node_modules/@types"
-    ]
+    "typeRoots": ["./types", "./node_modules/@types"]
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }

@@ -1,7 +1,7 @@
-import { createContext } from 'react'
-import { EthSWRConfigInterface } from './types'
+import { createContext } from 'react';
+import { EthSWRConfigInterface } from './types';
 
-const EthSWRConfigContext = createContext<EthSWRConfigInterface>({})
-EthSWRConfigContext.displayName = 'EthSWRConfigContext'
+const EthSWRConfigContext = createContext<EthSWRConfigInterface>({});
+EthSWRConfigContext.displayName = 'EthSWRConfigContext';
 
-export default EthSWRConfigContext
+export default EthSWRConfigContext;

@@ -1,8 +1,8 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
 export function useSomething() {
-  const [foo] = useState('something')
-  return { value: foo }
+  const [foo] = useState('something');
+  return { value: foo };
 }
 
-export default useSomething
+export default useSomething;
